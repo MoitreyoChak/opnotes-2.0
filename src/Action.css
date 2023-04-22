@@ -1,0 +1,20 @@
+.action-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.action {
+  border: 2px solid;
+  border-color: #38d9a9;
+  border-radius: 6px;
+  color: #d3c5fd;
+  font-size: 24px;
+  font-weight: 500;
+  padding-left: 8px;
+  padding-right: 6px;
+}
+.action-delete {
+  border-color: #ff8787;
+}

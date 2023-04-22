@@ -1,0 +1,71 @@
+.popup {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(26, 22, 22, 0.7);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s;
+}
+.popup:target {
+  opacity: 1;
+  visibility: visible;
+}
+.popup-display {
+  opacity: 1;
+  visibility: visible;
+}
+.popup-content {
+  width: 40%;
+  height: 85%;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+
+  /* background-image: linear-gradient(
+    180deg,
+    hsl(240deg 45% 36%) 0%,
+    hsl(241deg 39% 40%) 11%,
+    hsl(242deg 34% 43%) 22%,
+    hsl(242deg 30% 47%) 33%,
+    hsl(242deg 26% 50%) 44%,
+    hsl(242deg 26% 54%) 55%,
+    hsl(241deg 26% 57%) 66%,
+    hsl(241deg 26% 61%) 77%,
+    hsl(240deg 26% 64%) 89%,
+    hsl(240deg 25% 68%) 100%
+  ); */
+  background-color: #495057;
+}
+.note-upper-overlay {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  /* overflow: hidden; */
+  justify-content: space-around;
+}
+.note-heading-overlay {
+  color: #c8b6fd;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+  /* padding-left: 10px; */
+}
+.note-input-overlay {
+  background-color: transparent;
+  border: none;
+  color: #d6336c;
+  color: #15aabf;
+  color: #faa2c1;
+  height: 90%;
+  width: 99%;
+  padding: 20px;
+  font-size: 20px;
+}

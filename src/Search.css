@@ -1,0 +1,22 @@
+.upper-container {
+  display: flex;
+  align-items: center;
+  padding: 12px 30px;
+}
+.a {
+  background: linear-gradient(to right, #b197fc, #eebefa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 36px;
+  margin-right: 200px;
+}
+
+.search-input {
+  background: transparent;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #eebefa;
+  border: 1px solid #e5dbff;
+  border-radius: 15px;
+  width: 40vw;
+}
